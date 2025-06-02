@@ -26,7 +26,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-south-1'
-        AWS_ACCOUNT_ID = '769566606380'
+        AWS_ACCOUNT_ID = '76956xxxxxxxx'
         ECR_REPO_F = 'meanstack/frontend'
         ECR_REPO_B = 'meanstack/backend'
         IMAGE_TAG = "${env.BUILD_NUMBER}"
